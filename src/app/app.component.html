@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+<button (click)="up()">Increase data value</button>
+<button (click)="up()">Change data</button>
+<app-data-binding 
+[dummyData]=service.dummyData></app-data-binding>
+<app-data-binding-on-push 
+[dummyData]=service.dummyData></app-data-binding-on-push>
+<app-function-binding></app-function-binding>
+<app-function-binding-on-push></app-function-binding-on-push>
